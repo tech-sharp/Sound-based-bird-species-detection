@@ -75,4 +75,4 @@ We approached the problem of song classification with Convolutional Neural Netwo
 - MobileNets
 - EfficientNets
 - Handcrafted CNN's
-- Other
+- Other
