@@ -98,4 +98,4 @@ def create_result(pred, classes):
     """ creates results (bird class and probability) """
     top = np.argsort(pred[0])[:-2:-1]
     result = {'bird': classes[top[0]], 'probability': int(round(pred[0][top[0]], 2) * 100)}
-    return result
+    return result
